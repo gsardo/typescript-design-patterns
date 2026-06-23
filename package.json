@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "(npx parcel ./index.html) & npx parcel watch ./index.html",
-    "start": "ts-node typescript/index.ts"
+    "start": "ts-node typescript/index.ts",
+    "solid": "ts-node typescript/solid-examples.ts",
+    "creation-design": "ts-node typescript/creational-design-patterns.ts"
   },
   "keywords": [],
   "author": "Giuseppe Sardo <giuseppe.sardo@clearscore.com>",
